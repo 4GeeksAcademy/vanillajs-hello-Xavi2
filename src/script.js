@@ -7,7 +7,7 @@ console.log(action.length);
 console.log(what.length);
 console.log(when.lenght);
 
-const randomExcuse = who[Math.floor(Math.random() * who.length)] + ' ' + action[Math.floor(Math.random() * action.length)] + ' ' + what[Math.floor(Math.random() * what.length)]
+const randomExcuse = who[Math.floor(Math.random() * who.length)] + ' ' + action[Math.floor(Math.random() * action.length)] + ' ' + what[Math.floor(Math.random() * what.length)] + ' ' + when[Math.floor(Math.random() * when.length)]
 console.log(randomExcuse)
 window.onload = (event) => {
     document.getElementById("excuse").textContent = (randomExcuse);
