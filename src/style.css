@@ -1,6 +1,11 @@
-#excuse{
+.whole-excuse{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: column;
+}
+#excuse{
+    justify-content: center;
+    align-items: center;
 }
